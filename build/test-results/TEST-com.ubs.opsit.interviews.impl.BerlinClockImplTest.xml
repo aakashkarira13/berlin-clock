@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.impl.BerlinClockImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-03T21:33:00" hostname="LAPTOP-BOG31FPL" time="0.0">
+  <properties/>
+  <testcase name="testBerlinClockShouldResultCorrectSecondsHoursAndMinutes" classname="com.ubs.opsit.interviews.impl.BerlinClockImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

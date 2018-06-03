@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" tests="11" skipped="0" failures="0" errors="0" timestamp="2018-06-03T21:33:00" hostname="LAPTOP-BOG31FPL" time="0.003">
+  <properties/>
+  <testcase name="testBottomMinutesShouldHave4Lamps" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testBerlinClockShouldResultCorrectSecondsHoursAndMinutes" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testTopMinutesShouldHave11Lamps" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testTopHoursShouldHave4Lamps" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testTopMinutesShouldHave3rd6thAnd9thLampsInRedToIndicateFirstQuarterHalfAndLastQuarter" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testTopMinutesShouldLightYellowLampForEvery5MinutesUnlessItIsFirstQuarterHalfOrLastQuarter" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testBottomMinutesShouldLightYellowLampForEveryMinuteLeftFromTopMinutes" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testBottomHoursShouldHave4Lamps" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testTopHoursShouldLightRedLampForEvery5Hours" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testYellowLampShouldBlinkOnOffEveryTwoSeconds" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <testcase name="testBottomHoursShouldLightRedLampForEveryHourLeftFromTopHours" classname="com.ubs.opsit.interviews.BerlinClockJUnitTestCases" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

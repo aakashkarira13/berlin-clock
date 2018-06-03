@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.BerlinClockFixture" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-03T21:32:43" hostname="LAPTOP-BOG31FPL" time="0.889">
+  <properties/>
+  <testcase name="berlinClockAcceptanceTests" classname="com.ubs.opsit.interviews.BerlinClockFixture" time="0.889"/>
+  <system-out><![CDATA[2018-06-04T03:02:43.859 | est worker | ClasspathStoryFinder | INFO   - Searching for stories called [berlin-clock.story] in [[C:\Aakash\java-berlin-clock-master\build\classes\java\test, C:\Aakash\java-berlin-clock-master\build\resources\test, C:\Aakash\java-berlin-clock-master\build\classes\java\main]] 
+2018-06-04T03:02:43.878 | est worker | aviouralTestEmbedder | INFO   - Running [BehaviouralTestEmbedder] with spring_stories [[file:/C:/Aakash/java-berlin-clock-master/build/resources/test/stories/berlin-clock.story]] 
+Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,threads=1]
+
+(BeforeStories)
+
+Running story file:/C:/Aakash/java-berlin-clock-master/build/resources/test/stories/berlin-clock.story
+Story: The Berlin Clock
+(file:/C:/Aakash/java-berlin-clock-master/build/resources/test/stories/berlin-clock.story)
+Meta:
+@scope interview
+
+Scenario: Midnight
+When the time is 00:00:00
+Then the clock should look like
+Y
+OOOO
+OOOO
+OOOOOOOOOOO
+OOOO
+
+Scenario: Middle of the afternoon
+When the time is 13:17:01
+Then the clock should look like
+O
+RROO
+RRRO
+YYROOOOOOOO
+YYOO
+
+Scenario: Just before midnight
+When the time is 23:59:59
+Then the clock should look like
+O
+RRRR
+RRRO
+YYRYYRYYRYY
+YYYY
+
+Scenario: Midnight
+When the time is 24:00:00
+Then the clock should look like
+Y
+RRRR
+RRRR
+OOOOOOOOOOO
+OOOO
+
+
+
+(AfterStories)
+
+Generating reports view to 'C:\Aakash\java-berlin-clock-master\build\classes\java\jbehave' using formats '[stats, html, console]' and view properties '{defaultFormats=stats, decorateNonHtml=true, viewDirectory=view, decorated=ftl/jbehave-report-decorated.ftl, reports=ftl/jbehave-reports-with-totals.ftl, maps=ftl/jbehave-maps.ftl, navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl}'
+Reports view generated with 1 stories (of which 0 pending) containing 4 scenarios (of which 0 pending)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.model.BerlinClockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-06-03T21:33:00" hostname="LAPTOP-BOG31FPL" time="0.002">
+  <properties/>
+  <testcase name="testForSeconds" classname="com.ubs.opsit.interviews.model.BerlinClockTest" time="0.0"/>
+  <testcase name="testForTopMinutesYellowLamp" classname="com.ubs.opsit.interviews.model.BerlinClockTest" time="0.0"/>
+  <testcase name="testForBottomHours" classname="com.ubs.opsit.interviews.model.BerlinClockTest" time="0.001"/>
+  <testcase name="testForTopMinutesRedLamp" classname="com.ubs.opsit.interviews.model.BerlinClockTest" time="0.001"/>
+  <testcase name="testForTopHours" classname="com.ubs.opsit.interviews.model.BerlinClockTest" time="0.0"/>
+  <testcase name="testForBottomMinutes" classname="com.ubs.opsit.interviews.model.BerlinClockTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
